@@ -1,0 +1,123 @@
+¡Comprendido! Quieres que tome la información del negocio "Espresso Yourself" y la integre en el formato del código HTML original (la página del tejón de miel), pero centrándola en la cafetería.
+
+Aquí tienes el nuevo código HTML, reemplazando la información del tejón por el contenido de "Espresso Yourself", manteniendo el diseño y los colores temáticos de "miel" (que ahora se sienten perfectos para una cafetería de alta calidad).
+
+HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="iLLdzJCnymq5xNmnIc9GuDUecTXIO_YWkjReS5hODxM" />
+  <title>Coffee Shop "Espresso Yourself"</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #fffbee; /* Fondo color crema/miel claro */
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ffd24c; /* Amarillo miel fuerte */
+      color: #222;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      text-align: justify;
+      line-height: 1.6;
+    }
+    
+    .quote {
+        background-color: #f3c623;
+        padding: 10px;
+        margin: 20px 0;
+        border-radius: 5px;
+        font-style: italic;
+        text-align: center;
+    }
+
+    footer {
+      background-color: #f3c623;
+      color: #222;
+      padding: 10px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ Espresso Yourself: Arte y Café</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nuestra Misión: Café como Motor Creativo</h2>
+      <p>
+        "Espresso Yourself" se estableció con un concepto de **galería de arte y centro comunitario**. 
+        Nuestra misión principal es ir más allá de servir café, buscando ser un espacio donde la gente se sienta cómoda para expresar su **creatividad**. Desde sus inicios, el local se diseñó para tener grandes ventanales y mucha luz natural, creando un ambiente inspirador para artistas, estudiantes y residentes.
+      </p>
+        <p class="quote">
+            "El café es la respuesta a todas las preguntas" | "Relájate, llegaste a casa".
+        </p>
+
+      <h2>La Excelencia del Café Gourmet</h2>
+      <p>
+        Nos enfocamos en granos de **alta calidad**, a menudo 100% **Arábica** o de origen único (como el Blue Mountain o Sidamo). Ofrecemos la base concentrada del Espresso, el clásico Cappuccino y el Latte personalizado con jarabes gourmet.
+      </p>
+        <p>
+            Valoramos la preparación con métodos especiales como **Prensa Francesa, V60 o Chemex** para resaltar las notas de sabor. También exploramos la tendencia de la **Coctelería con Café**, con ejemplos como el Espresso Martini y el Carajillo.
+        </p>
+
+      <img src="img/cafe_arabica.jpg" alt="Granos de café Arábica">
+
+      <h2>Gastronomía y Dulces</h2>
+      <p>
+        En nuestra cocina, la calidad es clave. Usamos productos frescos, locales u orgánicos, siguiendo un enfoque de **"Sabores inspirados en las estaciones"**. El emplatado es una parte esencial, buscando la estética y la armonía visual.
+      </p>
+        <p>
+            ¡Haz tu día más dulce! Prueba nuestra tarta especial. ¿Un mal día? No hay nada que nuestra **“Avo Tostada”** no pueda solucionar. Un rico almuerzo es mejor acompañado con una rica bebida, alegra el corazón de uno.
+        </p>
+        
+        <img src="img/tostada_gourmet.jpg" alt="Tostada gourmet con aguacate y huevo">
+        
+        <h2>Valores de la Casa</h2>
+        <ul>
+            <li>**Calidad:** El mejor café y productos con insumos de primera.</li>
+            <li>**Servicio al cliente:** Amable, carismático y eficiente.</li>
+            <li>**Comunidad:** Construir un sentido de pertenencia.</li>
+            <li>**Honestidad:** Actuar con integridad y ética.</li>
+        </ul>
+    </section>
+  </main>
+
+  <footer>
+    "El paraíso del buen sabor". | Misión: Ofrecer productos y un servicio excelente en un ambiente acogedor.
+  </footer>
+</body>
+</html>
